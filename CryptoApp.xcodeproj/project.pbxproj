@@ -11,6 +11,7 @@
 		BE11FA0A292975A700D9C803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11FA09292975A700D9C803 /* ContentView.swift */; };
 		BE11FA0C292975B200D9C803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11FA0B292975B200D9C803 /* Assets.xcassets */; };
 		BE11FA0F292975B200D9C803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11FA0E292975B200D9C803 /* Preview Assets.xcassets */; };
+		BE11FA17292A18D900D9C803 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11FA16292A18D900D9C803 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE11FA09292975A700D9C803 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE11FA0B292975B200D9C803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE11FA0E292975B200D9C803 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE11FA16292A18D900D9C803 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		BE11FA06292975A700D9C803 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				BE11FA15292A18C500D9C803 /* Extensions */,
 				BE11FA07292975A700D9C803 /* CryptoAppApp.swift */,
 				BE11FA09292975A700D9C803 /* ContentView.swift */,
 				BE11FA0B292975B200D9C803 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				BE11FA0E292975B200D9C803 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE11FA15292A18C500D9C803 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE11FA16292A18D900D9C803 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE11FA0A292975A700D9C803 /* ContentView.swift in Sources */,
+				BE11FA17292A18D900D9C803 /* Color.swift in Sources */,
 				BE11FA08292975A700D9C803 /* CryptoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
